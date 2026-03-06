@@ -3,29 +3,6 @@ import { expect } from "chai";
 
 describe('Test workforceManagement', () => {
         describe('recruitStaff', () => {
-        //it('should throw an error message if one of the input parameter is not valid', () => {             ----> мое решение
-            //expect(() => workforceManagement.recruitStaff("Alex", "QA", 5)).to.throw('We are not currently hiring for this role.')
-        //})
-
-        //it('should return a proper message if experience < 4', () => {
-            //let name = "Alex"
-            //let role = "Developer"
-            //let experience = 3                                               ----> мое решение
-            //let expected = 'Alex is not suitable for this role.'
-
-            //expect(workforceManagement.recruitStaff(name, role, experience)).to.equal(expected)
-           
-        //})
-
-        //it('should return a proper message if all requirements are met', () => {
-            //let name = "Peter"
-            //let role = "Developer"                                           ----> мое решение
-            //let experience = 4
-            //let expected = 'Peter has been successfully recruited for the role of Developer.'
-
-            //expect(workforceManagement.recruitStaff(name, role, experience)).to.equal(expected)
-       // })
-
             it('should return correct message', () => {
             expect(workforceManagement.recruitStaff('Ivanov', 'Developer', 0)).to.equal('Ivanov is not suitable for this role.');
             expect(workforceManagement.recruitStaff('Petrov', 'Developer', 4)).to.equal('Petrov has been successfully recruited for the role of Developer.');
