@@ -1,0 +1,17 @@
+{
+  "name": "unit-testing-with-js---exercise",
+  "version": "1.0.0",
+  "description": "Unit Test with JS - Exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Mariana Panagonova",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
